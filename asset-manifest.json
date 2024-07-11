@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/styleFinderpages/static/css/main.c1fd3bed.css",
+    "main.js": "/styleFinderpages/static/js/main.3511cdc8.js",
+    "index.html": "/styleFinderpages/index.html",
+    "main.c1fd3bed.css.map": "/styleFinderpages/static/css/main.c1fd3bed.css.map",
+    "main.3511cdc8.js.map": "/styleFinderpages/static/js/main.3511cdc8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1fd3bed.css",
+    "static/js/main.3511cdc8.js"
+  ]
+}
