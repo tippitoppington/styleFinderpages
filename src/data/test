@@ -1,0 +1,155 @@
+[{
+        "Id": "01",
+        "Product": "Faux Fur Crisscross Slippers",
+        "Gender": "Her",
+        "Relationship": "Mother",
+        "Interest": "Self-Care, Beauty",
+        "Category": "Shoes",
+        "Price": "Under $25",
+        "Occasion": "Occasion",
+        "Age": "30-40"
+    },
+    {
+        "Id": "02",
+        "Product": "Unisex Instinct Tundra Silicone Strap Smart Watch 23mm",
+        "Gender": "Either",
+        "Relationship": "Girlfriend",
+        "Interest": "Athletic, Tech",
+        "Category": "Accessories",
+        "Price": "Over $100",
+        "Occasion": "Occasion",
+        "Age": "22-30"
+    },
+    {
+        "Id": "03",
+        "Product": "Toy RC Robotic Robotosaur Mini",
+        "Gender": "Him ",
+        "Relationship": "Son",
+        "Interest": "Interest",
+        "Category": "Tech",
+        "Price": "Under $50",
+        "Occasion": "NewParent",
+        "Age": "22-30"
+    },
+    {
+        "Id": "04",
+        "Product": "Wholesome & Hearty Gift Platter",
+        "Gender": "Either",
+        "Relationship": "Friend",
+        "Interest": "Foodie, Tech",
+        "Category": "Home",
+        "Price": "Under $50",
+        "Occasion": "Boss",
+        "Age": "Over 40"
+    },
+    {
+        "Id": "05",
+        "Product": "Ruby (3/8 ct. t.w.) & Diamond (1/6 ct. t.w.) Flower Band in 14k Rose Gold",
+        "Gender": "Her",
+        "Relationship": "Girlfriend",
+        "Interest": "Fashion, Beauty",
+        "Category": "Accessories",
+        "Price": "Over $100",
+        "Occasion": "Romantic",
+        "Age": "22-30"
+    },
+    {
+        "Id": "06",
+        "Product": "London Marble-Print Wireless Earbuds",
+        "Gender": "Her",
+        "Relationship": "Mother",
+        "Interest": "Athletic, Tech",
+        "Category": "Tech",
+        "Price": "Under $50",
+        "Occasion": "Occasion",
+        "Age": "Over 40"
+    },
+    {
+        "Id": "07",
+        "Product": "Host Your Own Pub Quiz Game",
+        "Gender": "Either",
+        "Relationship": "Husband",
+        "Interest": "Wine",
+        "Category": "Home",
+        "Price": "Under $25",
+        "Occasion": "Occasion",
+        "Age": "30-40"
+    },
+    {
+        "Id": "08",
+        "Product": "Iced Coffee Body Scrub",
+        "Gender": "Her",
+        "Relationship": "Sister",
+        "Interest": "Foodie, Beauty",
+        "Category": "Beauty",
+        "Price": "Under $25",
+        "Occasion": "Occasion",
+        "Age": "13-21"
+    },
+    {
+        "Id": "09",
+        "Product": "Hydrangea Canteen",
+        "Gender": "Her",
+        "Relationship": "Sister",
+        "Interest": "Eco, Self-Care",
+        "Category": "Home",
+        "Price": "Under $25",
+        "Occasion": "Occasion",
+        "Age": "22-30"
+    },
+    {
+        "Id": "10",
+        "Product": "New Home Candle",
+        "Gender": "Either",
+        "Relationship": "Friend",
+        "Interest": "Interest",
+        "Category": "Home",
+        "Price": "Under $25",
+        "Occasion": "NewHomeowner",
+        "Age": "22-30"
+    },
+    {
+        "Id": "11",
+        "Product": "Self-Care Sticker Sheet",
+        "Gender": "Either",
+        "Relationship": "Friend",
+        "Interest": "Eco, Self-Care",
+        "Category": "Category",
+        "Price": "Under $25",
+        "Occasion": "Occasion",
+        "Age": "Age"
+    },
+    {
+        "Id": "12",
+        "Product": "Vlogging Tripod",
+        "Gender": "Her",
+        "Relationship": "Daughter",
+        "Interest": "Influencer",
+        "Category": "Tech",
+        "Price": "Under $25",
+        "Occasion": "Occasion",
+        "Age": "Age"
+    },
+    {
+        "Id": "13",
+        "Product": "Graphic Tote Bag",
+        "Gender": "Her",
+        "Relationship": "Relationship",
+        "Interest": "Eco, Self-Care",
+        "Category": "Handbags",
+        "Price": "Under $25",
+        "Occasion": "Occasion",
+        "Age": "Age"
+    },
+    {
+        "Id": "14",
+        "Product": "Man With A Pan Oven Mitt",
+        "Gender": "Him ",
+        "Relationship": "Relationship",
+        "Interest": "Foodie, Beauty",
+        "Category": "Kitchen",
+        "Price": "Under $25",
+        "Occasion": "Occasion",
+        "Age": "Age"
+    }
+]

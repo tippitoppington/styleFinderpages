@@ -1,0 +1,485 @@
+/* See main.css fpr general styles */
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+
+/* hide desktop content */
+
+.d {
+    display: none;
+}
+
+.nav-d {
+    display: none;
+}
+
+.nav-t {
+    display: none;
+}
+
+.t {
+    display: none;
+}
+
+
+/*
+img {
+   width:100%
+    display: block;
+} */
+
+
+/* Header */
+
+header {
+    min-width: 375px;
+    /* min-height: 120px; */
+    background: #fff;
+    /* border-bottom: 1px solid #cdcdcd; */
+}
+
+.topHeader {
+    background-color: #fafafa;
+    color: #666;
+    width: 100%;
+    padding: 24px;
+    min-height: 36px;
+}
+
+.th-container {
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+.hdr-nav {
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px 20px 24px 24px;
+}
+
+.hdr-nav img.menu-icon {
+    max-width: 8%;
+    height: auto;
+    align-self: center;
+    /* margin-top: 18px; */
+}
+
+.hdr-nav img.macys-logo {
+    max-width: 31.5%;
+    height: auto;
+    align-self: center;
+}
+
+.hdr-nav img.bag {
+    margin: 5px 4px 0 0;
+    max-width: 6.5%;
+    height: auto;
+    align-self: center;
+}
+
+div.search-nav {
+    min-height: 20px;
+    border: 1px solid #d7d7d7;
+    margin: 0px 26px 24px 24px;
+}
+
+.search-nav form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.search-nav input[type='text'] {
+    background-color: transparent;
+    min-width: 80%;
+    padding: 4px 6px 6px 10px;
+    font-size: 28px;
+    border: none;
+    align-self: center;
+}
+
+.search-nav button {
+    background-color: none;
+    background: none;
+    color: none;
+    /* font-size: 17px; */
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+}
+
+.search-nav button img {
+    height: 70px;
+    width: auto;
+    float: right;
+    align-self: center;
+}
+
+.contemp-nav-container {
+    margin-top: 20px;
+    min-width: 100%;
+    background-color: #000;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.contemp-nav {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.contemp-primary {
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #818181;
+    height: 80px;
+}
+
+.contemp-primary button.title {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: center;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.contemp-primary .depts {
+    align-self: center;
+}
+
+.contemp-primary .depts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.depts button {
+    margin-right: 120px;
+    font-weight: bold;
+    color: #818181;
+}
+
+.depts button.active {
+    color: #fff;
+}
+
+.contemp-secondary {
+    min-width: 100%;
+    background-color: #edebeb;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contemp-secondary a {
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contemp-secondary a.active {
+    background-color: #fff;
+}
+
+.contemp-secondary a button {
+    height: 80px;
+    margin-right: 0;
+    font-weight: 600;
+    color: #000;
+    align-self: center;
+    cursor: pointer;
+}
+
+.depts ul li,
+.contemp-secondary ul li {}
+
+@media only screen and (min-width: 768px) {
+    /* Style adjustments for viewports that meet the condition */
+    .m {
+        /* display: none; */
+    }
+    .t {
+        /* display: block; */
+    }
+    .d {
+        display: none;
+    }
+    .nav-m {
+        display: none;
+    }
+    .nav-t {
+        display: block;
+    }
+    .topHeader {
+        padding: 14px 10px;
+        min-height: 40px;
+    }
+    .th-container {
+        margin: 0 auto;
+        /* display: flex;
+        flex-direction: row;
+        justify-content: space-between; */
+        font-size: 0.75rem;
+    }
+    div.hdr-nav {
+        background: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 20px 18px 32px;
+    }
+    .hdr-nav img.menu-icon {
+        width: auto;
+        height: 20px;
+        margin-left: 6px;
+    }
+    .hdr-nav img.macys-logo {
+        width: auto;
+        height: 36px;
+        margin-right: 10px;
+        align-self: center;
+    }
+    .hdr-nav img.bag {
+        margin: 0 0 0 0;
+        width: auto;
+        height: 34px;
+        align-self: center;
+    }
+    div.search-nav {
+        min-width: 59%;
+        min-height: 20px;
+        border: 1px solid #d7d7d7;
+        margin: 0px 26px 0 28px;
+    }
+    .search-nav form {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .search-nav input[type='text'] {
+        background-color: transparent;
+        min-width: 80%;
+        padding: 4px 6px 6px 10px;
+        font-size: 1rem;
+        border: none;
+        align-self: center;
+    }
+    .search-nav button {
+        background-color: none;
+        background: none;
+        color: none;
+        /* font-size: 17px; */
+        border: none;
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+        /* align-self: center; */
+    }
+    .search-nav button img {
+        height: 40px;
+        width: auto;
+        float: right;
+        align-self: center;
+    }
+    .contemp-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 16px;
+        background-color: #000;
+        color: #818181;
+    }
+    .contemp-nav div {
+        font-weight: bold;
+    }
+    .contemp-nav .active {
+        color: #fff;
+    }
+    .contemp-primary {
+        min-width: 50%;
+        background-color: #000;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 4px 0;
+        height: 60px;
+    }
+    .contemp-primary button.title {
+        font-size: 24px;
+        font-weight: bold;
+        align-self: center;
+        margin-right: 30px;
+    }
+    .contemp-primary .depts {}
+    .contemp-primary .depts {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .contemp-primary .depts button {
+        margin-right: 30px;
+    }
+    .contemp-secondary {
+        background-color: #000;
+        min-width: 43%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .contemp-secondary a {
+        background-color: #000;
+        text-decoration: none;
+        width: 33.3%;
+    }
+    .contemp-secondary a button {
+        text-decoration: none;
+        padding: 20px 0;
+        margin-right: 0;
+        color: #818181;
+        background-color: #000;
+        font-weight: 600;
+        height: 60px;
+    }
+    .contemp-secondary a.active {
+        background-color: #000;
+    }
+    .contemp-secondary a.active button {
+        color: #fff;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .m {
+        display: none;
+    }
+    .t {
+        display: none;
+    }
+    .d {
+        display: block;
+    }
+    .mt {
+        display: none;
+    }
+    .nav-d {
+        display: block;
+    }
+    .nav-t {
+        display: none;
+    }
+    /* Header */
+    .topHeader {
+        background-color: #333;
+        color: #fff;
+        width: 100%;
+        padding: 10px 32px;
+        max-height: 32px;
+    }
+    .th-container {
+        margin: 0 auto;
+        padding: 0 30px 0 30px;
+        max-width: 1240px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 0.75rem;
+    }
+    header {
+        width: 100%;
+        min-height: 160px;
+        background: #fff;
+        /* border-bottom: 1px solid #acacac; */
+    }
+    .top-nav {
+        display: block;
+        background: #fff;
+        height: 100px;
+    }
+    .top-nav-inner {
+        max-width: 1240px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 100px;
+        padding: 0 30px 0 30px;
+        margin: 0 auto;
+    }
+    .top-nav img {
+        max-height: 100px;
+        width: auto;
+    }
+    div.hdr-nav {
+        background: #fff;
+        padding: 0;
+        min-height: 40px;
+    }
+    div.hdr-nav-inner {
+        width: 100%;
+        max-width: 1240px;
+        background: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 32px;
+        margin: 0 auto;
+    }
+    .hdr-nav img {
+        max-height: 40px;
+        width: auto;
+        align-self: center;
+    }
+    /* .contemp-nav-container {
+        margin-top: 20px;
+        min-width: 100%;
+        background-color: #000;
+    } */
+    .contemp-nav {
+        max-width: 1240px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .contemp-primary {
+        min-width: 30%;
+        padding: 0;
+        height: 60px;
+    }
+    .contemp-primary button.title {
+        font-size: 24px;
+        font-weight: bold;
+        align-self: center;
+        margin-right: 40px;
+    }
+    .contemp-primary .depts {}
+    .contemp-primary .depts {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .contemp-primary .depts button {
+        margin-right: 40px;
+    }
+    .contemp-secondary {
+        background-color: #000;
+        min-width: 33%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
