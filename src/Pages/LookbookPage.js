@@ -119,6 +119,9 @@ const Lookbook = () => {
 		<>
 			<div className='section-header'>
 				<h2>Find Your Style</h2>
+				<p class='lookbook-subhead'>
+					Mix and match items to make the inspo look your own
+				</p>
 			</div>
 			<Outfit
 				selectedOutfit={selectedOutfit}

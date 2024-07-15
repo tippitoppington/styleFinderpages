@@ -144,8 +144,9 @@ button.resetVisible {
 }
 
 .item p {
-	font-weight: bold;
+	/* font-weight: bold; */
 	text-align: center;
+	font-size: 0.8rem;
 }
 
 div.tall_group {

@@ -1,4 +1,4 @@
-import React, { useMemo, useCallback } from 'react';
+import React, { useMemo } from 'react';
 import ItemOptions from './ItemOptions';
 import ItemList from './ItemList';
 import { outfits } from '../data/outfits-data';
@@ -17,17 +17,17 @@ const Outfit = ({
 		[selectedOutfit.id]
 	);
 
-	const hideTooltip = useCallback(() => {
-		const tooltip = document.querySelector('.tooltip');
-		if (tooltip) tooltip.classList.add('hide');
-	}, []);
+	// const hideTooltip = useCallback(() => {
+	// 	const tooltip = document.querySelector('.tooltip');
+	// 	if (tooltip) tooltip.classList.add('hide');
+	// }, []);
 
 	if (!outfit) {
 		return <div>Error: Outfit not found</div>;
 	}
 
 	return (
-		<div className='look' style={outfit.style} onClick={hideTooltip}>
+		<div className='look' style={outfit.style}>
 			<div className='desc-container'>
 				<div className='look-description'>
 					<h4>{outfit.title}</h4>

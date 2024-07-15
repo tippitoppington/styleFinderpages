@@ -61,19 +61,6 @@ const Trend = ({ trend }) => {
 								))}
 							</div>
 						</div>
-						{product.productName && (
-							<>
-								<p>
-									{product.brand}
-									<br />
-									{product.productName}
-								</p>
-								<p className='sale-price'>
-									<span className='price'>{product.price}</span>{' '}
-									{product.saleprice}
-								</p>
-							</>
-						)}
 					</div>
 				);
 			})}

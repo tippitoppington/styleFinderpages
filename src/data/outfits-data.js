@@ -4,7 +4,7 @@ export const outfits = [
 		outfit_img: '/img/01/outfit_01f.jpg',
 		item_count: 5,
 		style: { backgroundColor: '#ffffff' },
-		title: 'Details, details',
+		title: 'Minimalist with bold accents',
 		text1: 'Create a crisp white backdrop to showcase your style.',
 		text2: 'Mix flashy statement pieces with casual items.',
 		text3: 'Dress down with flat sandals, a tank top and a large tote.',

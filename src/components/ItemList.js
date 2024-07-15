@@ -10,7 +10,7 @@ const ItemComponent = ({ item, handleCategory, categoryName }) => (
 			loading='lazy'
 			decoding='async'
 		/>
-		<p>{item.price}</p>
+		{/* <p>{item.price}</p> */}
 	</div>
 );
 
@@ -31,9 +31,9 @@ const ItemList = ({ selectedOutfit, handleCategory, open }) => {
 		<div
 			className={open === 'true' ? 'item_list open' : 'item_list'}
 			style={outfit.style}>
-			<button className='tooltip'>
+			{/* <button className='tooltip'>
 				Select an item to personalize this look.
-			</button>
+			</button> */}
 			<div className='tall_group'>
 				<ItemComponent
 					item={items[0]}
