@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/styleFinderpages/static/css/main.c7d8ea05.css",
-    "main.js": "/styleFinderpages/static/js/main.b48fdd38.js",
+    "main.css": "/styleFinderpages/static/css/main.08c9d21e.css",
+    "main.js": "/styleFinderpages/static/js/main.7d1fd664.js",
     "index.html": "/styleFinderpages/index.html",
-    "main.c7d8ea05.css.map": "/styleFinderpages/static/css/main.c7d8ea05.css.map",
-    "main.b48fdd38.js.map": "/styleFinderpages/static/js/main.b48fdd38.js.map"
+    "main.08c9d21e.css.map": "/styleFinderpages/static/css/main.08c9d21e.css.map",
+    "main.7d1fd664.js.map": "/styleFinderpages/static/js/main.7d1fd664.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7d8ea05.css",
-    "static/js/main.b48fdd38.js"
+    "static/css/main.08c9d21e.css",
+    "static/js/main.7d1fd664.js"
   ]
 }
