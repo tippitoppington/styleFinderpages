@@ -123,6 +123,7 @@ const Lookbook = () => {
 					Mix and match items to make the inspo look your own
 				</p>
 			</div>
+			<LooksImages setOutfitId={setOutfitId} />
 			<Outfit
 				selectedOutfit={selectedOutfit}
 				open={open}
@@ -132,7 +133,6 @@ const Lookbook = () => {
 				itemCategory={itemCategory}
 				handleReset={handleReset}
 			/>
-			<LooksImages setOutfitId={setOutfitId} />
 		</>
 	);
 };

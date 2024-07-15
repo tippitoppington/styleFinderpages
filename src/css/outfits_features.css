@@ -3,7 +3,7 @@ button {
 }
 
 .section-header {
-	margin-bottom: 60px;
+	/* margin-bottom: 60px; */
 }
 
 .grid-container {
@@ -33,7 +33,7 @@ button {
 
 .look-img-trigger figure,
 .look-img-trigger img {
-	height: 80%;
+	height: 100%;
 	object-fit: cover;
 	object-position: top;
 }
@@ -76,7 +76,8 @@ div.look {
 
 .look-description li {
 	padding: 0 0 10px 0;
-	line-height: 2.35rem;
+	line-height: 1.25rem;
+	font-weight: 400;
 }
 
 button.resetHidden {
@@ -323,6 +324,11 @@ div.item-opt {
 	.look-description ul {
 		display: block;
 	}
+	.look-description li {
+		padding: 0 0 10px 0;
+		line-height: 1.5rem;
+	}
+
 	.outfit-img-container {
 		max-width: 30%;
 	}
@@ -442,6 +448,10 @@ div.item-opt {
 }
 
 @media screen and (min-width: 1024px) {
+	.look-description li {
+		padding: 0 0 10px 0;
+		line-height: 2rem;
+	}
 }
 
 @media screen and (min-width: 1280px) {
